@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C47318821ABD692600AFF026 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47318811ABD692600AFF026 /* DeviceViewController.swift */; };
 		C47904E71AB9DEC500B6BB1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47904E61AB9DEC500B6BB1C /* AppDelegate.swift */; };
 		C47904E91AB9DEC500B6BB1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47904E81AB9DEC500B6BB1C /* ViewController.swift */; };
 		C47904EC1AB9DEC500B6BB1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47904EA1AB9DEC500B6BB1C /* Main.storyboard */; };
 		C47904EE1AB9DEC500B6BB1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47904ED1AB9DEC500B6BB1C /* Images.xcassets */; };
 		C47904F11AB9DEC500B6BB1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47904EF1AB9DEC500B6BB1C /* LaunchScreen.xib */; };
 		C47904FD1AB9DEC500B6BB1C /* MezamasiMeganeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47904FC1AB9DEC500B6BB1C /* MezamasiMeganeTests.swift */; };
+		C47905111AB9E15900B6BB1C /* Funiki.m in Sources */ = {isa = PBXBuildFile; fileRef = C47905091AB9E15900B6BB1C /* Funiki.m */; };
+		C47905121AB9E15900B6BB1C /* libFunikiSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C479050B1AB9E15900B6BB1C /* libFunikiSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C47318811ABD692600AFF026 /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
 		C47904E11AB9DEC500B6BB1C /* MezamasiMegane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MezamasiMegane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47904E51AB9DEC500B6BB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C47904E61AB9DEC500B6BB1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,16 @@
 		C47904F61AB9DEC500B6BB1C /* MezamasiMeganeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MezamasiMeganeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47904FB1AB9DEC500B6BB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C47904FC1AB9DEC500B6BB1C /* MezamasiMeganeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MezamasiMeganeTests.swift; sourceTree = "<group>"; };
+		C47905081AB9E15900B6BB1C /* Funiki.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Funiki.h; sourceTree = "<group>"; };
+		C47905091AB9E15900B6BB1C /* Funiki.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Funiki.m; sourceTree = "<group>"; };
+		C479050A1AB9E15900B6BB1C /* FunikiSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunikiSDK.h; sourceTree = "<group>"; };
+		C479050B1AB9E15900B6BB1C /* libFunikiSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFunikiSDK.a; sourceTree = "<group>"; };
+		C479050C1AB9E15900B6BB1C /* MADiscoveredPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADiscoveredPeripheral.h; sourceTree = "<group>"; };
+		C479050D1AB9E15900B6BB1C /* MAFunikiAccelerationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiAccelerationData.h; sourceTree = "<group>"; };
+		C479050E1AB9E15900B6BB1C /* MAFunikiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiManager.h; sourceTree = "<group>"; };
+		C479050F1AB9E15900B6BB1C /* MAFunikiMotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiMotionData.h; sourceTree = "<group>"; };
+		C47905101AB9E15900B6BB1C /* MAFunikiRotationRateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiRotationRateData.h; sourceTree = "<group>"; };
+		C47905141ABC8A0E00B6BB1C /* MezamasiMegane-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MezamasiMegane-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47905121AB9E15900B6BB1C /* libFunikiSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,8 @@
 		C47904D81AB9DEC500B6BB1C = {
 			isa = PBXGroup;
 			children = (
+				C47905141ABC8A0E00B6BB1C /* MezamasiMegane-Bridging-Header.h */,
+				C47905071AB9E15900B6BB1C /* FunikiSDK */,
 				C47904E31AB9DEC500B6BB1C /* MezamasiMegane */,
 				C47904F91AB9DEC500B6BB1C /* MezamasiMeganeTests */,
 				C47904E21AB9DEC500B6BB1C /* Products */,
@@ -79,6 +96,7 @@
 			children = (
 				C47904E61AB9DEC500B6BB1C /* AppDelegate.swift */,
 				C47904E81AB9DEC500B6BB1C /* ViewController.swift */,
+				C47318811ABD692600AFF026 /* DeviceViewController.swift */,
 				C47904EA1AB9DEC500B6BB1C /* Main.storyboard */,
 				C47904ED1AB9DEC500B6BB1C /* Images.xcassets */,
 				C47904EF1AB9DEC500B6BB1C /* LaunchScreen.xib */,
@@ -110,6 +128,22 @@
 				C47904FB1AB9DEC500B6BB1C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C47905071AB9E15900B6BB1C /* FunikiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C47905081AB9E15900B6BB1C /* Funiki.h */,
+				C47905091AB9E15900B6BB1C /* Funiki.m */,
+				C479050A1AB9E15900B6BB1C /* FunikiSDK.h */,
+				C479050B1AB9E15900B6BB1C /* libFunikiSDK.a */,
+				C479050C1AB9E15900B6BB1C /* MADiscoveredPeripheral.h */,
+				C479050D1AB9E15900B6BB1C /* MAFunikiAccelerationData.h */,
+				C479050E1AB9E15900B6BB1C /* MAFunikiManager.h */,
+				C479050F1AB9E15900B6BB1C /* MAFunikiMotionData.h */,
+				C47905101AB9E15900B6BB1C /* MAFunikiRotationRateData.h */,
+			);
+			path = FunikiSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +195,11 @@
 				TargetAttributes = {
 					C47904E01AB9DEC500B6BB1C = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = XB3GBY8T76;
 					};
 					C47904F51AB9DEC500B6BB1C = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = XB3GBY8T76;
 						TestTargetID = C47904E01AB9DEC500B6BB1C;
 					};
 				};
@@ -212,7 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47318821ABD692600AFF026 /* DeviceViewController.swift in Sources */,
 				C47904E91AB9DEC500B6BB1C /* ViewController.swift in Sources */,
+				C47905111AB9E15900B6BB1C /* Funiki.m in Sources */,
 				C47904E71AB9DEC500B6BB1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +331,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "MezamasiMegane-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "MezamasiMegane-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,6 +369,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "MezamasiMegane-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "MezamasiMegane-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -340,6 +382,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MezamasiMegane/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FunikiSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -350,6 +396,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MezamasiMegane/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FunikiSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -358,6 +408,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -369,6 +421,7 @@
 				INFOPLIST_FILE = MezamasiMeganeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MezamasiMegane.app/MezamasiMegane";
 			};
 			name = Debug;
@@ -377,6 +430,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -384,6 +439,7 @@
 				INFOPLIST_FILE = MezamasiMeganeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MezamasiMegane.app/MezamasiMegane";
 			};
 			name = Release;
@@ -407,6 +463,7 @@
 				C47905021AB9DEC500B6BB1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C47905031AB9DEC500B6BB1C /* Build configuration list for PBXNativeTarget "MezamasiMeganeTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +472,7 @@
 				C47905051AB9DEC500B6BB1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
