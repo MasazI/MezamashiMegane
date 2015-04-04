@@ -16,6 +16,7 @@
 		C47904FD1AB9DEC500B6BB1C /* MezamasiMeganeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47904FC1AB9DEC500B6BB1C /* MezamasiMeganeTests.swift */; };
 		C47905111AB9E15900B6BB1C /* Funiki.m in Sources */ = {isa = PBXBuildFile; fileRef = C47905091AB9E15900B6BB1C /* Funiki.m */; };
 		C47905121AB9E15900B6BB1C /* libFunikiSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C479050B1AB9E15900B6BB1C /* libFunikiSDK.a */; };
+		C48F10741ACFC76900864F4C /* OriginalUIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48F10731ACFC76900864F4C /* OriginalUIPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		C479050F1AB9E15900B6BB1C /* MAFunikiMotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiMotionData.h; sourceTree = "<group>"; };
 		C47905101AB9E15900B6BB1C /* MAFunikiRotationRateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFunikiRotationRateData.h; sourceTree = "<group>"; };
 		C47905141ABC8A0E00B6BB1C /* MezamasiMegane-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MezamasiMegane-Bridging-Header.h"; sourceTree = "<group>"; };
+		C48F10731ACFC76900864F4C /* OriginalUIPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalUIPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				C47904E61AB9DEC500B6BB1C /* AppDelegate.swift */,
 				C47904E81AB9DEC500B6BB1C /* ViewController.swift */,
 				C47318811ABD692600AFF026 /* DeviceViewController.swift */,
+				C48F10731ACFC76900864F4C /* OriginalUIPickerView.swift */,
 				C47904EA1AB9DEC500B6BB1C /* Main.storyboard */,
 				C47904ED1AB9DEC500B6BB1C /* Images.xcassets */,
 				C47904EF1AB9DEC500B6BB1C /* LaunchScreen.xib */,
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C47318821ABD692600AFF026 /* DeviceViewController.swift in Sources */,
+				C48F10741ACFC76900864F4C /* OriginalUIPickerView.swift in Sources */,
 				C47904E91AB9DEC500B6BB1C /* ViewController.swift in Sources */,
 				C47905111AB9E15900B6BB1C /* Funiki.m in Sources */,
 				C47904E71AB9DEC500B6BB1C /* AppDelegate.swift in Sources */,

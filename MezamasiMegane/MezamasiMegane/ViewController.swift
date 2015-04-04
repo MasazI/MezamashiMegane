@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController, MAFunikiManagerDelegate, MAFunikiManagerDataDelegate {
-
+    
+    
     let funikiManager = MAFunikiManager.sharedInstance()
     
     @IBOutlet weak var statusLabal: UILabel!
@@ -17,7 +18,15 @@ class ViewController: UIViewController, MAFunikiManagerDelegate, MAFunikiManager
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // データピッカー
+        //var rect    = CGRectMake(0, 0, 300, 100)
+        //var pickerView = OriginalUIPickerView(frame: rect)
+        
+        //pickerView.backgroundColor = UIColor.redColor()
+        //self.view.addSubview(pickerView)
     }
+    
     
     override func viewWillAppear(animated: Bool) {
         // 受信delegate
